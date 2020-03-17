@@ -7,8 +7,8 @@ describe('app routes', () => {
       .get('/')
       .then(res => {
         expect(res.text).toEqual(`<html>
-  <body>hi
-  </body>
+<body>hi
+</body>
 </html>`);
       });
   });
@@ -17,8 +17,8 @@ describe('app routes', () => {
       .get('/echo')
       .then(res => {
         expect(res.text).toEqual(`<html>
-  <body>
-  </body>
+<body>
+</body>
 </html>`);
       });
   });
@@ -27,31 +27,31 @@ describe('app routes', () => {
       .get('/red')
       .then(res => {
         expect(res.text).toEqual(`<html>
-  <body>
-    <h1>red</h1>
-  </body>
+<body>
+<h1>red</h1>
+</body>
 </html>`);
       });
   });
   it('retrieves the green html page', () => {
     return request(app)
-      .get('/blue')
+      .get('/green')
       .then(res => {
         expect(res.text).toEqual(`<html>
-  <body>
-    <h1>green</h1>
-  </body>
+<body>
+<h1>green</h1>
+</body>
 </html>`);
       });
   });
   it('retrieves the blue html page', () => {
     return request(app)
-      .get('/red')
+      .get('/blue')
       .then(res => {
         expect(res.text).toEqual(`<html>
-  <body>
-    <h1>blue</h1>
-  </body>
+<body>
+<h1>blue</h1>
+</body>
 </html>`);
       });
   });

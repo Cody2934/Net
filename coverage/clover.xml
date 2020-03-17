@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1584407483594" clover="3.2.0">
-  <project timestamp="1584407483594" name="All files">
-    <metrics statements="25" coveredstatements="23" conditionals="23" coveredconditionals="18" methods="4" coveredmethods="4" elements="52" coveredelements="45" complexity="0" loc="25" ncloc="25" packages="2" files="3" classes="3"/>
+<coverage generated="1584477570615" clover="3.2.0">
+  <project timestamp="1584477570615" name="All files">
+    <metrics statements="25" coveredstatements="24" conditionals="23" coveredconditionals="20" methods="4" coveredmethods="4" elements="52" coveredelements="48" complexity="0" loc="25" ncloc="25" packages="2" files="3" classes="3"/>
     <package name="lib">
-      <metrics statements="18" coveredstatements="16" conditionals="20" coveredconditionals="17" methods="2" coveredmethods="2"/>
+      <metrics statements="18" coveredstatements="17" conditionals="20" coveredconditionals="19" methods="2" coveredmethods="2"/>
       <file name="app.js" path="/Users/codybrown/alchemy/career-track/Net/lib/app.js">
-        <metrics statements="18" coveredstatements="16" conditionals="20" coveredconditionals="17" methods="2" coveredmethods="2"/>
+        <metrics statements="18" coveredstatements="17" conditionals="20" coveredconditionals="19" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -14,16 +14,16 @@
         <line num="7" count="5" type="stmt"/>
         <line num="8" count="5" type="cond" truecount="4" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="17" count="4" type="cond" truecount="4" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="25" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="35" count="1" type="cond" truecount="2" falsecount="2"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="44" count="1" type="cond" truecount="3" falsecount="1"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
